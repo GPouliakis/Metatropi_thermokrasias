@@ -16,3 +16,36 @@ form {
   border-radius: 20px;
   box-shadow: 3px 3px 3px hsl(0, 0%, 0%, 0.4);
 }
+
+#textBox {
+  text-align: center;
+  font-size: 25px;
+  max-width: 50%;
+  margin-bottom: 15px;
+  border: 2px solid hsl(0, 0%, 0%, 0.5);
+  border-radius: 12px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  background-color: white;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(230, 227, 227);
+}
+
+#result {
+  font-size: 15px;
+  font-weight: bold;
+}
